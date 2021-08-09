@@ -1,0 +1,240 @@
+body{
+  overflow-x: hidden;
+}
+
+.body{
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+
+
+
+.body h1 {
+  margin: 50px;
+  animation: move 3s;
+  -webkit-animation: move 3s;
+  font-size: 100px;
+  border-bottom:#006fff 5px solid;
+}
+
+@keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+            
+@-webkit-keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+ #demo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+}
+.about h1 {
+  color: #006fff;
+}
+
+.about {
+  border-top: 1px solid #ffa200;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.underline {
+  text-decoration: #ffa200 underline;
+  
+}
+
+h2 {
+  color:  #006fff;
+}
+
+
+
+.vision {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffa200;
+  padding-bottom: 100px;
+  margin-right: 15px;
+  margin-left: 90px;
+  color: #fff;
+}
+
+.mission {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffb93e;
+  color: #fff;
+}
+
+.statement {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.statement h3{
+  font-size: 40px;
+}
+
+.policy {
+  margin-top: 10px;
+}
+
+.infos {
+  background-color: #000;
+  color: #fff;
+}
+
+#certificateB a:hover {
+  color: #ffa200;
+}
+
+#certificateB {
+  padding: 10px;
+  margin-top: 30px;
+  background-color: white;
+  
+}
+
+.certificate h2{
+color: white;
+}
+
+#certificateB a  {
+  color: rgb(14, 13, 13);
+}
+
+#certificateB a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 568px) {
+  #demo{
+
+  font-size: 20px;
+}
+
+.body h1 {
+
+  font-size: 15px;
+  border-bottom:#006fff 1px solid;
+}
+
+  .about h1 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.vision{
+  padding-bottom: 100px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  
+}
+
+.vision p {
+  margin-top: -20px;
+}
+
+.vision h3 {
+  padding-top: 3px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.mission {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.mission p {
+  margin-top: -20px;
+}
+
+.mission h3 {
+  padding-top: 3px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.quality {
+  font-size: 12px;
+}
+
+.policy {
+  font-size: 12px;
+}
+
+.policy h5 {
+  font-size: 13px;
+}
+
+.certificate h2 {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.certificateB {
+  width: 0px;
+  height: 0;
+}
+
+.certificateB a {
+  font-size: 12px;
+}
+
+#certificateB {
+  padding: 10px;
+  margin-top: 2px;
+  margin-left: 80px;
+  background-color: white;
+  
+}
+
+#certificateB a  {
+  color: rgb(14, 13, 13);
+}
+
+#certificateB a:hover {
+  text-decoration: none;
+}
+
+.footer1 {
+    /* margin-top: -80px; */
+    padding: 15px 0 0 20px;
+    border-top: 3px solid #ffa200;
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}

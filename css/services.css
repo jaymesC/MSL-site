@@ -1,0 +1,71 @@
+
+.blasting img {
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+#pimp {
+  color: #006fff;
+  text-decoration: underline #ffa200;
+}
+
+.fontChange p{
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+}
+
+.fontChange img {
+  border: gold 2px solid;
+}
+
+
+
+
+.top {
+margin-top: -70px;
+margin-bottom: 10px;
+}
+
+.pipeline img {
+  margin-top: 50px;
+  width: 350px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 568px) {
+  .up {
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+  .padder {
+  margin-top: -50px;
+}
+
+  .blasting img {
+    height: 90px;
+    margin-top: auto;
+    margin-left: 3px;
+  }
+
+  .pipeline img {
+  margin-top: 10px;
+  width: 290px;
+  margin-left: 40px;
+}
+
+.civilled {
+  margin-left: 20px;
+}
+
+.fontChange p{
+
+font-size: 10px;
+}
+
+.fontChange h2{
+padding-top: 10px;
+text-align: center;
+}
+}

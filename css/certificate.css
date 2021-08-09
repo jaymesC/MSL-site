@@ -1,0 +1,13 @@
+body {
+  background-color: #fff;
+}
+
+.push {
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 568px){
+ .add{
+  margin-top: -50px;
+}
+}

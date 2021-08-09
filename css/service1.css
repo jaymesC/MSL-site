@@ -1,0 +1,50 @@
+.services p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scaffold h5 {
+  color:#006fff ;
+}
+
+.desc {
+  margin-top: 80px;
+}
+
+
+
+@media screen and (max-width: 568px) {
+  .services h4{
+    font-size: 14px;
+  }
+
+  .services h5{
+    font-size: 12px;
+  }
+
+  .serv {
+    margin-top: 10px;
+  }
+
+  .scaffing {
+    margin-top: 5px;
+  }
+
+  .scaffold h5 {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  .scaffold img {
+    width: 340px;
+    height: 250px;
+
+  }
+
+  .desc {
+  margin-top: 0;
+}
+
+
+
+  
+}

@@ -1,0 +1,112 @@
+body{
+  overflow-x: hidden;
+}
+
+
+.body{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.body h1 {
+  margin: 50px;
+  animation: move 3s;
+  -webkit-animation: move 3s;
+  font-size: 100px;
+  border-bottom:#fff 5px solid;
+}
+
+@keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+            
+@-webkit-keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.body img {
+  border-bottom: 10px solid  #ffa200;
+}
+
+ #project{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+}
+
+.Dropping {
+margin-top: 80px;
+}
+
+
+@media screen and (max-width: 568px) {
+.body img {
+  border-bottom: 3px solid  #ffa200;
+}
+
+#adjustedPics {
+  width: 355px;
+  padding-bottom: 10px;
+}
+
+
+.body h1 {
+
+  font-size: 15px;
+  border-bottom:#fff 1px solid;
+}
+
+  #project{
+font-size:20px;
+}
+
+.pro1 {
+  margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+ 
+}
+
+.pro2 {
+  margin-left: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+.pro3 {
+  margin-left: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+ .fti2 {
+   padding-top: 2px;
+  padding-bottom: 2px;
+}
+.fti1 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom: none;
+  padding-left: 80px;
+}
+
+.Dropping {
+margin-top: 0;
+}
+}
