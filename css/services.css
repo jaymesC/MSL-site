@@ -39,6 +39,11 @@ margin-bottom: 10px;
   margin-bottom: 20px;
 }
 
+  .listed-items {
+    margin-top: -12px;
+    font-size: 12px;
+  }
+
   .padder {
   margin-top: -50px;
 }
