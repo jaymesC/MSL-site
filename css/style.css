@@ -391,6 +391,10 @@ div.item {
     height: 20px;
   }
 
+  .push-left {
+    margin-left: -4rem;
+  }
+
   .search {
     display: none;
   }
